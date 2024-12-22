@@ -97,8 +97,8 @@ int32_t main() {
           }
           else if(newfans.second + 1 == fans.second){
               pathfinal+="R";
-          }
-          else pathfinal+="L";
+          
+}          else pathfinal+="L";
           fans = newfans;
       }
       reverse(pathfinal.begin(),pathfinal.end());
